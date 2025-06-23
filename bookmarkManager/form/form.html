@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form to collect user input for Garazewala</title>
+</head>
+<body>
+    <h1>Form Input</h1>
+    <form action = "post">
+        <div>
+            <label for="username">Enter your username</label>
+            <input type="text" id="username" name="username" placeholder="Enter your username">
+        </div>
+        <div>
+            <input type="radio" id="male" name="gender" value="HTML">
+            <label for="male">Male</label>  
+            <input type="radio" id="female" name="gender" value="HTML">
+            <label for="female">Female</label> 
+        </div>
+        <div>
+           <input type="chekbox" id="subscribe" name="subscribe" value="yes">
+           <label for="subscribe">Subscribe to Newsletter</label>
+        </div>
+        <div>
+            <label for="comment">Enter your comment</label>
+            <br>
+            <textarea id="comment" name="comment" rows="4" cols="50">Enter the car name you want to buy...
+            </textarea>
+        </div>
+        <div>
+            <select name="cars">
+                <option value="Audi">Audi</option>
+                <option value="Bmw">Bmw</option>
+                <option value="Mercedes">Mercedes</option>
+            </select>
+        </div>
+     
+    </form>
+</body>
+</html>
