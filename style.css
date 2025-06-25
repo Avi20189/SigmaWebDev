@@ -1,4 +1,10 @@
 body{
-    background-color: red;
     color: white;
+}
+
+p{
+    background-color: aquamarine;
+}
+a{
+    background-color: red;
 }
