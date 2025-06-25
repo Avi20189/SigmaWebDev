@@ -1,0 +1,10 @@
+
+div:first-of-type > * {
+    background-color: yellow;
+    color: red;
+}
+div:nth-of-type(2) > * {
+    background-color: blue;
+    color: white;
+}
+
