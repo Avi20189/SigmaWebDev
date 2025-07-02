@@ -5,17 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        element.style{
+            align-content: center;
+            /* agar items ek line mein hai to align-items: center hoga; lekin agar
+            2 line mein hai to align content center hoga */
+        }
         .container{
               border: 2px solid red;
               display: flex;
               height: 80vh;
-        }
+              /* is se horizontally center ho jaayega element but but but agar main axis vertical hai to vertically karega 
+              as in agar flex direction row hai to horizontally karega and agara column hai to vetically kareaga */
+              /* justify-content: center;  */
+              /* is se vertically center ho jaayega element  */
+              align-items: center; 
+              /* flex-direction: column; */
+              flex-wrap: wrap;
+              /* iska matlab hai ki ye wrap ho jaayega gayab nahi hoga. Upar se lear niche tak aa jaayega. */
+              align-content: center;
+              /* there is no justify item in flexbox */
+             /* flex-flow: row wrap; */
+             /* flex flow mein flex direction and flex wrap combined hai */
+              gap: 10px;
+              row-gap: 10px;
+              column-gap: 100px;
+              gap: 10px 100px;
+              /* this line is equivalent to upper two lines. gap mei agar do value likhenhge to
+              gap ke just baad wali property row gap and uske next wali column gpa maani jaati hai */
+            }
         .item{
             height: 12px;
             width: 12px;
             background-color: blueviolet;
             border: 2ppx solid black;
             margin: 4px;
+            /* align-self: is property se jo bhi item hoga uska orientation change hoga */
+            /* flex grow property hai us se relatively items ke jagaha lene ko change kar sake hain */
+            /* flex shrink propertyt:- Agar ye main 1st box par laga dun to is se ye hoga ke
+            jab bhi screen bada chhota karenge to 1st box apne value ke hisab se shrink hoga */
         }
 
     </style>
@@ -26,9 +53,40 @@
             <div class="item"></div>
             <div class="item"></div>
             <div class="item"></div>
+
+
+            <div class="item order-1"></div>
+            <!-- humlog order ka use karke aage piche box kar order rakh sakate hain -->
             <div class="item"></div>
             <div class="item"></div>
             <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+          
         </div>
     </main>
 </body>
