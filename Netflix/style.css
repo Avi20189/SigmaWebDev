@@ -6,8 +6,19 @@
 
 .main{
     background-image: url("./assests/images/bg.jpg");
+    background-position: center center;
+    background-size: 100vw;
     height: 80vh;
     position: relative;
+}
+
+.main .box{
+    height: 80vh;
+    width: 100%;
+    opacity: 0.44;
+    position: absolute;
+    top: 0;
+    background-color: black;
 }
 .box{
     height: 80vh;
