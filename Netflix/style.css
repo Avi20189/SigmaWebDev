@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=poppins:wght@300;700&display=swap');
 
 * {
   padding: 0;
@@ -21,7 +21,7 @@ body{
 .main .box {
   height: 70vh;
   width: 100%;
-  opacity: 0.44;
+  opacity: 0.69;
   position: absolute;
   top: 0;
   background-color: black;
@@ -62,6 +62,7 @@ nav button{
 }
   
 .hero> :nth-child(1){
+    font-family: 'poppins', sans-serif;
     font-weight: bolder;
     font-size: 48px;
     text-align: center;
@@ -82,4 +83,31 @@ nav button{
 .seperation{
     height: 2%;
     background-color: rgb(45, 44, 44);
+}
+
+.btn{
+    padding: 3px 8px;
+    font-weight: bold;
+    background-color: white;
+}
+.btn-red{
+background-color: red;
+color: white;
+padding: 3px 24px;
+font-size: 20px;
+border-radius: 4px;
+}
+.hero-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+.main input{
+    padding: 7px 101px 8px 14px;
+    font-weight: 900;
+    font-size: 12 px;
+    border-radius: 4px;
+    background-color: rgba(23,23,23, 0.2);
+    border: 1px solid rgba(23, 23, 23, 0.3);
 }
