@@ -86,9 +86,13 @@ nav button{
 }
 
 .btn{
+    font-family: 'poppins', sans-serif;   
     padding: 3px 8px;
-    font-weight: bold;
-    background-color: white;
+    font-weight: 400;
+    color: white;
+    background-color: rgb(248,243,243,0.78);
+    border: 1px solid white;
+    cursor: pointer;
 }
 .btn-red{
 background-color: red;
@@ -105,9 +109,49 @@ border-radius: 4px;
 }
 .main input{
     padding: 7px 101px 8px 14px;
+    color: white;
     font-weight: 900;
     font-size: 12 px;
     border-radius: 4px;
     background-color: rgba(23,23,23, 0.2);
     border: 1px solid rgba(23, 23, 23, 0.3);
+}
+
+.first{
+    display: flex;
+    justify-content: center;
+    max-width: 50vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.secImg{
+    position: relative;
+}
+.secImg img{
+    width: 30vw;
+    position: relative;
+    z-index: 10;
+      
+}
+
+.secVideo{
+    position: absolute;
+    top: 51px;
+    right: 0;
+}
+section.first > div{
+    display: flex;
+    flex-direction: column;
+}
+
+section.first > div :nth-child(1) {
+      font-size: 48px;
+      font-weight: bolder;
+}
+
+section.first > div :nth-child(2){
+    font-size: 24px;
 }
