@@ -153,5 +153,58 @@ section.first > div :nth-child(1) {
 }
 
 section.first > div :nth-child(2){
+    font-size: 24px;  
+}
+.faq h2{
+    text-align: center;
+    font-size: 48px;
+}
+.faq{
+    background: black;
+    color: white;
+    padding: 34px;
+}
+
+.faqbox:hover{
+    background-color: gray;
+}
+
+
+.faqbox{
     font-size: 24px;
+    transition: all 1s ease-out;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2d2d2d;
+    padding: 24px; 
+    max-width: 40vw;
+    margin: 34px auto;
+    cursor: pointer;
+}
+footer{
+    columns: white;
+    max-width: 60vw;
+    margin: auto;
+    padding: 34px;
+}
+.footer a{
+    font-size: 14px;
+    color: white;
+}
+
+footer.questions{
+    padding: 34px 0;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    color: white;
+    max-width: 60vw;
+    margin: auto ;
+}
+
+.footer-item{
+    display: flex;  
+    flex-direction: column;
+    gap: 14px;
 }
