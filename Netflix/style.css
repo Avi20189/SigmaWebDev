@@ -32,14 +32,14 @@ nav {
   margin: auto;
   display: flex;
   align-items: center;
-  height: 62px;
+  height: 100px;
   position: relative;
   z-index: 10;
 }
 
 nav img {
   color: red;
-  width: 114px;
+  width: 130px;
   position: relative;
   z-index: 10;
 }
@@ -50,11 +50,11 @@ nav button{
 }
 .hero {
   font-family: "Martel Sans", sans-serif;
-  height: calc(100% -62px);
+  height: calc(100% -100px);
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
+  flex-direction: column; 
   color: white;
   position: relative;
   gap: 23px;
@@ -83,6 +83,9 @@ nav button{
 .seperation{
     height: 2%;
     background-color: rgb(45, 44, 44);
+    position: relative;
+    z-index: 20;
+
 }
 
 .btn{
@@ -127,11 +130,12 @@ border-radius: 4px;
     align-items: center;
 }
 
+
 .secImg{
     position: relative;
 }
 .secImg img{
-    width: 30vw;
+    width: 401px;
     position: relative;
     z-index: 10;
       
@@ -141,10 +145,12 @@ border-radius: 4px;
     position: absolute;
     top: 51px;
     right: 0;
+    width: 401px;
 }
 section.first > div{
     display: flex;
     flex-direction: column;
+    padding: 34px 0;
 }
 
 section.first > div :nth-child(1) {
@@ -169,7 +175,9 @@ section.first > div :nth-child(2){
     background-color: gray;
 }
 
-
+.questions{
+    color: white;
+}
 .faqbox{
     font-size: 24px;
     transition: all 1s ease-out;
@@ -183,7 +191,7 @@ section.first > div :nth-child(2){
 }
 footer{
     columns: white;
-    max-width: 60vw;
+    max-width: 90vw;
     margin: auto;
     padding: 34px;
 }
@@ -203,8 +211,31 @@ footer.questions{
     margin: auto ;
 }
 
+@media screen and (max-width: 1300px) {
+    .footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr; 
+        gap: 55px;
+    }
+}
+
 .footer-item{
     display: flex;  
     flex-direction: column;
     gap: 14px;
+}
+
+@media screen and (max-width: 1300px) {
+    .first {
+        flex-wrap: wrap;
+    }
+
+    .secImg img{
+        width: 305px;
+        position: relative;
+        z-index: 10;
+    }
+    .secImg video{
+        width: 305px;
+    }
 }
