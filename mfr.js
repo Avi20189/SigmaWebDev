@@ -9,3 +9,16 @@ for(let index = 0; index < array.length; index++){
 
 console.log(newArr);
 
+//Filter
+
+//It fitlers an aaray with values that passes a test
+const a =[1,2,3,4,5];
+
+const greaterThanSeven = (e) =>{
+    if(e>7){
+        return true
+    }
+    return false
+}
+
+newArr.filter(greaterThanSeven);
