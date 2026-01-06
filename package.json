@@ -1,5 +1,28 @@
 {
   "dependencies": {
     "express": "^5.2.1"
-  }
+  },
+  "name": "sigma",
+  "version": "1.0.0",
+  "description": "",
+  "main": "mfr.js",
+  "devDependencies": {
+    "autoprefixer": "^10.4.23",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.18"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Avi20189/SigmaWebDev.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Avi20189/SigmaWebDev/issues"
+  },
+  "homepage": "https://github.com/Avi20189/SigmaWebDev#readme"
 }
